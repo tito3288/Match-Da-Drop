@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0E20F72824E82A00206564 /* RequestReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E20F62824E82A00206564 /* RequestReview.swift */; };
+		2E8FA23228245D830047E54E /* mixkit-deep-urban.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E8FA23128245D830047E54E /* mixkit-deep-urban.mp3 */; };
+		2E8FA236282461AE0047E54E /* mixkit-player-losing-or-failing-2042.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E8FA235282461AE0047E54E /* mixkit-player-losing-or-failing-2042.wav */; };
+		2E8FA2382824654C0047E54E /* game-point-click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E8FA2372824654C0047E54E /* game-point-click.wav */; };
+		2E8FA23A282466010047E54E /* lose-life.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E8FA239282466010047E54E /* lose-life.wav */; };
+		2E8FA23C282467D00047E54E /* mixkit-gain-life.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E8FA23B282467D00047E54E /* mixkit-gain-life.wav */; };
 		2EDBF0D8281107E5006EE42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDBF0D7281107E5006EE42F /* AppDelegate.swift */; };
 		2EDBF0DA281107E5006EE42F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2EDBF0D9281107E5006EE42F /* GameScene.sks */; };
 		2EDBF0DC281107E5006EE42F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2EDBF0DB281107E5006EE42F /* Actions.sks */; };
@@ -15,10 +21,19 @@
 		2EDBF0E3281107E5006EE42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDBF0E1281107E5006EE42F /* Main.storyboard */; };
 		2EDBF0E5281107E7006EE42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDBF0E4281107E7006EE42F /* Assets.xcassets */; };
 		2EDBF0E8281107E7006EE42F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDBF0E6281107E7006EE42F /* LaunchScreen.storyboard */; };
+		2EDBF1182818A12A006EE42F /* GameoverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDBF1172818A12A006EE42F /* GameoverScene.swift */; };
+		2EDBF11C281B922C006EE42F /* LaunchScreenScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDBF11B281B922C006EE42F /* LaunchScreenScene.swift */; };
+		E35358DFB8B1DAB7F7018CCD /* Pods_Match_Da_Drop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C0C6AE55A1339F713DA61B /* Pods_Match_Da_Drop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2EDBF0D4281107E5006EE42F /* Match Da Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Match Da Drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0E20F62824E82A00206564 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
+		2E8FA23128245D830047E54E /* mixkit-deep-urban.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mixkit-deep-urban.mp3"; sourceTree = "<group>"; };
+		2E8FA235282461AE0047E54E /* mixkit-player-losing-or-failing-2042.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-player-losing-or-failing-2042.wav"; sourceTree = "<group>"; };
+		2E8FA2372824654C0047E54E /* game-point-click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-point-click.wav"; sourceTree = "<group>"; };
+		2E8FA239282466010047E54E /* lose-life.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "lose-life.wav"; sourceTree = "<group>"; };
+		2E8FA23B282467D00047E54E /* mixkit-gain-life.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-gain-life.wav"; sourceTree = "<group>"; };
+		2EDBF0D4281107E5006EE42F /* Match'em.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Match'em.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDBF0D7281107E5006EE42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EDBF0D9281107E5006EE42F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2EDBF0DB281107E5006EE42F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -27,6 +42,11 @@
 		2EDBF0E2281107E5006EE42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EDBF0E4281107E7006EE42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EDBF0E7281107E7006EE42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EDBF1172818A12A006EE42F /* GameoverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameoverScene.swift; sourceTree = "<group>"; };
+		2EDBF11B281B922C006EE42F /* LaunchScreenScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenScene.swift; sourceTree = "<group>"; };
+		36D0AE92F783C0D114E4666A /* Pods-Match Da Drop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Match Da Drop.release.xcconfig"; path = "Target Support Files/Pods-Match Da Drop/Pods-Match Da Drop.release.xcconfig"; sourceTree = "<group>"; };
+		E033385CD501216ACF2BEFEE /* Pods-Match Da Drop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Match Da Drop.debug.xcconfig"; path = "Target Support Files/Pods-Match Da Drop/Pods-Match Da Drop.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C0C6AE55A1339F713DA61B /* Pods_Match_Da_Drop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Match_Da_Drop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35358DFB8B1DAB7F7018CCD /* Pods_Match_Da_Drop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,13 +66,15 @@
 			children = (
 				2EDBF0D6281107E5006EE42F /* Match Da Drop */,
 				2EDBF0D5281107E5006EE42F /* Products */,
+				62A001555488A329FAE4BE55 /* Pods */,
+				BF0D13E198A7FA13C7BD3F78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2EDBF0D5281107E5006EE42F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2EDBF0D4281107E5006EE42F /* Match Da Drop.app */,
+				2EDBF0D4281107E5006EE42F /* Match'em.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,12 +86,37 @@
 				2EDBF0D9281107E5006EE42F /* GameScene.sks */,
 				2EDBF0DB281107E5006EE42F /* Actions.sks */,
 				2EDBF0DD281107E5006EE42F /* GameScene.swift */,
+				2EDBF1172818A12A006EE42F /* GameoverScene.swift */,
+				2EDBF11B281B922C006EE42F /* LaunchScreenScene.swift */,
 				2EDBF0DF281107E5006EE42F /* GameViewController.swift */,
+				2E0E20F62824E82A00206564 /* RequestReview.swift */,
 				2EDBF0E1281107E5006EE42F /* Main.storyboard */,
+				2E8FA23128245D830047E54E /* mixkit-deep-urban.mp3 */,
+				2E8FA2372824654C0047E54E /* game-point-click.wav */,
+				2E8FA239282466010047E54E /* lose-life.wav */,
+				2E8FA23B282467D00047E54E /* mixkit-gain-life.wav */,
+				2E8FA235282461AE0047E54E /* mixkit-player-losing-or-failing-2042.wav */,
 				2EDBF0E4281107E7006EE42F /* Assets.xcassets */,
 				2EDBF0E6281107E7006EE42F /* LaunchScreen.storyboard */,
 			);
 			path = "Match Da Drop";
+			sourceTree = "<group>";
+		};
+		62A001555488A329FAE4BE55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E033385CD501216ACF2BEFEE /* Pods-Match Da Drop.debug.xcconfig */,
+				36D0AE92F783C0D114E4666A /* Pods-Match Da Drop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF0D13E198A7FA13C7BD3F78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0C6AE55A1339F713DA61B /* Pods_Match_Da_Drop.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +126,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EDBF0EB281107E7006EE42F /* Build configuration list for PBXNativeTarget "Match Da Drop" */;
 			buildPhases = (
+				BB92EE822DDF2F1097BB5A8C /* [CP] Check Pods Manifest.lock */,
 				2EDBF0D0281107E5006EE42F /* Sources */,
 				2EDBF0D1281107E5006EE42F /* Frameworks */,
 				2EDBF0D2281107E5006EE42F /* Resources */,
@@ -88,7 +137,7 @@
 			);
 			name = "Match Da Drop";
 			productName = "Match Da Drop";
-			productReference = 2EDBF0D4281107E5006EE42F /* Match Da Drop.app */;
+			productReference = 2EDBF0D4281107E5006EE42F /* Match'em.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,21 +178,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8FA2382824654C0047E54E /* game-point-click.wav in Resources */,
 				2EDBF0E3281107E5006EE42F /* Main.storyboard in Resources */,
 				2EDBF0DA281107E5006EE42F /* GameScene.sks in Resources */,
+				2E8FA23228245D830047E54E /* mixkit-deep-urban.mp3 in Resources */,
+				2E8FA23C282467D00047E54E /* mixkit-gain-life.wav in Resources */,
+				2E8FA23A282466010047E54E /* lose-life.wav in Resources */,
 				2EDBF0E5281107E7006EE42F /* Assets.xcassets in Resources */,
 				2EDBF0E8281107E7006EE42F /* LaunchScreen.storyboard in Resources */,
 				2EDBF0DC281107E5006EE42F /* Actions.sks in Resources */,
+				2E8FA236282461AE0047E54E /* mixkit-player-losing-or-failing-2042.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB92EE822DDF2F1097BB5A8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Match Da Drop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2EDBF0D0281107E5006EE42F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDBF1182818A12A006EE42F /* GameoverScene.swift in Sources */,
+				2E0E20F72824E82A00206564 /* RequestReview.swift in Sources */,
+				2EDBF11C281B922C006EE42F /* LaunchScreenScene.swift in Sources */,
 				2EDBF0DE281107E5006EE42F /* GameScene.swift in Sources */,
 				2EDBF0E0281107E5006EE42F /* GameViewController.swift in Sources */,
 				2EDBF0D8281107E5006EE42F /* AppDelegate.swift in Sources */,
@@ -288,17 +370,19 @@
 		};
 		2EDBF0EC281107E7006EE42F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E033385CD501216ACF2BEFEE /* Pods-Match Da Drop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = FYRP82KMX9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,7 +391,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bryan.Match-Da-Drop";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Match'em";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,17 +400,19 @@
 		};
 		2EDBF0ED281107E7006EE42F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D0AE92F783C0D114E4666A /* Pods-Match Da Drop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = FYRP82KMX9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,7 +421,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Bryan.Match-Da-Drop";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Match'em";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
